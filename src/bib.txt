@@ -1,0 +1,6 @@
+@article{zhu2021bottom,
+  title={Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation},
+  author={Zhu, Yifeng and Stone, Peter and Zhu, Yuke},
+  journal={arXiv preprint arXiv:2109.13841},
+  year={2021}
+}
