@@ -1,5 +1,5 @@
 #  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors
-[Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
+[Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi]() [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
 
 
 [Project](https://ut-austin-rpl.github.io/VIOLA/)  <!-- | [arxiv](http://arxiv.org/abs/2109.13841)  -->
