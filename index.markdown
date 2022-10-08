@@ -54,10 +54,13 @@ IMG {
 BODY {
   TEXT-ALIGN: center
 }
+td {
+  font-size: 20px
+}
 hr
   {
     border: 0;
-    height: 1px;
+    height: 2.5px;
     max-width: 1100px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   }
@@ -145,7 +148,15 @@ We introduce VIOLA, an object-centric imitation learning approach to learning cl
 <h1 align="center">Method Overview</h1>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center"> 
-  <tbody><tr>  <td align="center" valign="middle"><a href="./src/approach.gif"> <img src="./src/approach.gif" style="width:80%;">  </a></td>
+  <tbody><tr>  <td align="center" valign="middle">
+  <!-- <a href="./src/approach.gif"> <img src="./src/approach.gif" style="width:80%;">  
+  </a> -->
+    <!-- <a href="./videos/VIOLA supp approach.mp4"> <video src="./videos/VIOLA supp approach.mp4" type="video/mp4" style="width:80%;"/>   -->
+     <video controls="" muted="" autoplay="" loop="" width="88%">
+        <source src="videos/VIOLA supp approach.mp4" type="video/mp4">
+      </video>
+  <!-- </a> -->
+  </td>
   </tr>
 
 </tbody>
@@ -179,13 +190,23 @@ vector.  </p></td></tr></table>
 <h1 align="center">Simulation Experiment</h1>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
-  <tbody><tr><td>
-  <p align="justify" width="20%">We show a qualitative comparison
-  between two baselines (vanilla BC and Changepoint Detction) and our
-  method BUDS on
-  <tt>Kitchen</tt>, achieving 24.4%, 23.4%, and 72.0% task success rate respectively. BUDS learns skills that lead to better execution,
-  and we've shown the quantitative result in Table 1 of the paper.</p>
+  <tbody><tr><td align="center">
+  <p align="justify" width="20%">We conducted simulation experiments to compare VIOLA against existing approaches. We visualize the sampled initializations of all evaluation setups in all three simulation tasks, <tt>Sort</tt>, <tt>Stack</tt>, and <tt>BUDS-Kitchen</tt> (each column respectively).</p>
+ <video width="700" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/initialization.mp4" type="video/mp4">
+</video>
 </td></tr>
+</tbody>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tbody>
+  <tr><p></p></tr>
+<tr>
+<td align="center" valign="middle">
+
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -233,6 +254,67 @@ allowfullscreen></iframe>
 
 <br><hr>
 <h1 align="center">Real Robot Experiment</h1>
+<!-- <table border="0" cellspacing="10"
+cellpadding="0">
+<tr>
+<td>
+<p> </p>
+</td>
+</tr>
+</table> -->
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tbody>
+  <tr>
+  <td align="center">
+  <p align="justify" width="20%">We collected 50 teleoperated demonstrations for each real-robot task using 3D Connexion Spacemouse.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0"
+  align="center">
+  <tbody>
+  <tr>
+  <td align="center" valign="middle">
+<a href="videos/platefork demo.mp4">
+<video width="260" height="148" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/platefork demo.mp4" type="video/mp4">
+</video>  
+</a>
+</td>
+  <td align="center" valign="middle">
+<a href="videos/bowl demo.mp4">
+<video width="260" height="148" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/bowl demo.mp4" type="video/mp4">
+</video>
+</a>
+  </td>
+<td align="center" valign="middle">
+<a href="videos/capsule coffee demo.mp4">
+<video width="260" height="148" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/capsule coffee demo.mp4" type="video/mp4">
+</video>
+</a>
+</td>
+</tr>
+<tr>
+ <td align="center" valign="middle">
+ <tt>Dining-PlateFork</tt>
+</td> 
+<td align="center" valign="middle">
+ <tt>Dining-Bowl</tt>
+</td>
+ <td align="center" valign="middle">
+ <tt>Make-Coffee</tt>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2 align="center">Qualitative Real Robot Demo</h2>
+
 <table border="0" cellspacing="10"
 cellpadding="0"><tr><td>
 <p> </p></td></tr></table>
@@ -241,17 +323,53 @@ cellpadding="0"><tr><td>
   <tbody>
   <tr>
   <!-- For autoplay -->
-<iframe width="450" height="253"  src="https://www.youtube.com/embed/nF5vHSxLSKM?autoplay=1&mute=1&playlist=nF5vHSxLSKM&loop=1" autoplay="true" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
-<iframe width="450" height="253"  src="https://www.youtube.com/embed/apneKhEp4zk?autoplay=1&mute=1&playlist=apneKhEp4zk&loop=1" autoplay="true" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<video width="450" height="253" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/dining two policies.mp4" type="video/mp4">
+</video>
+
+<video width="450" height="253" controls="" muted="" autoplay="" loop="" frameborder="5">
+  <source src="videos/make two coffee.mp4" type="video/mp4">
+</video>
+<!-- <video width="450" height="253"  src="videos/make two coffee.mp4" autoplay="true" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video> -->
+<!-- 
+<iframe width="450" height="253"  src="https://www.youtube.com/embed/apneKhEp4zk?autoplay=1&mute=1&playlist=apneKhEp4zk&loop=1" autoplay="true" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+</tr>
+<tr>
+ <td align="center" valign="middle">
+ We can sequentially execute <tt>Dining-PlateFork</tt> and <tt>Dining-Bowl</tt> policies.
+</td> 
+<td align="center" valign="middle">
+ This video shows that the learned policies making two coffees in a row.
+</td>
 </tr>
 </tbody>
 </table>
 <br>
 
+<h2 align="center">Qualitative Real Robot Demo</h2>
+
+<br>
+
+
+<h2 align="center">A no-cut video of <b>10</b> <tt>Make-Coffee</tt> rollouts</h2>
+
+<table border="0" cellspacing="10"
+cellpadding="0"><tr><td>
+<p> </p></td></tr></table>
+  <table border="0" cellspacing="10" cellpadding="0"
+  align="center">
+  <tbody>
+  <tr>
+<iframe width="750" height="421" src="https://www.youtube.com/embed/DVFSPSa7GsQ?autoplay=1&mute=1&loop=1&playlist=DVFSPSa7GsQ" autoplay="true" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</tr>
+</tbody>
+</table>
+
 <br><hr> <table align=center width=800px> <tr> <td> <left>
-<center><h1>Acknowledgements</h1></center> This work has taken place
+<center><h1>Acknowledgements</h1></center> The authors would like to especially thank Yue Zhao for the great discussion on the project and the insightful feedback on the manuscript.
+This work has taken place
 in the Robot Perception and Learning Group (RPL) and Learning Agents
 Research Group (LARG) at UT Austin.  RPL research has been partially
 supported by NSF CNS-1955523, the MLL Research Award from the Machine
