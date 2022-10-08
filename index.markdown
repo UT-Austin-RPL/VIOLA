@@ -900,7 +900,7 @@ cellpadding="0"><tr><td>
 <br>
 
 <h2 align="center">Our policies are robust to scenarios where unseen distracting objects are present</h2>
-<h3 align="center">(the cup and the strawberry in bowl were never present in demonstrations)</h3>
+<h3 align="center">(The cup and the strawberry in bowl were never present in demonstrations)</h3>
   <table border="0" cellspacing="10" cellpadding="0"
   align="center">
   <tbody>
