@@ -6,7 +6,7 @@ categories: projects
 
 <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600,400italic,600italic,300,300italic' rel='stylesheet' type='text/css'>
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors</title>
+  <title>VIOLA: Imitation Learning for Vision-Based Manipulation <br> with Object Proposals Priors</title>
 
 <!-- <meta property="og:image" content="images/teaser_fb.jpg"> -->
 <meta property="og:title" content="TITLE">
@@ -135,7 +135,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 
 
 <div id="primarycontent">
-<center><h1><strong>VIOLA: Object-Centric Imitation Learning for Vision-Based Robot Manipulation</strong></h1></center>
+<center><h1><strong>VIOLA: Imitation Learning for Vision-Based Manipulation <br> with Object Proposals Priors</strong></h1></center>
 <center><h2>
     <a href="https://zhuyifengzju.github.io/">Yifeng Zhu<sup>1</sup></a>&nbsp;&nbsp;&nbsp;
     <a href="">Abhishek Joshi<sup>1</sup></a>&nbsp;&nbsp;&nbsp;
@@ -934,7 +934,7 @@ cellpadding="0"><tr><td>
 </table>
 
 <br><hr> <table align=center width=800px> <tr> <td> <left>
-<center><h1>Acknowledgements</h1></center> The authors would like to especially thank Yue Zhao for the great discussion on the project and the insightful feedback on the manuscript.
+<center><h1>Acknowledgements</h1></center> The authors would like to specially thank Yue Zhao for the great discussion on the project and the insightful feedback on the manuscript.
 This work has taken place
 in the Robot Perception and Learning Group (RPL) and Learning Agents
 Research Group (LARG) at UT Austin.  RPL research has been partially
