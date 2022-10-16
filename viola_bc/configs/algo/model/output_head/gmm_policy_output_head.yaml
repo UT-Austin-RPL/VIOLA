@@ -1,0 +1,10 @@
+network: GMMPolicyOutputHead
+
+network_kwargs:
+    input_dim: null
+    output_dim: null
+    num_modes: 5
+    min_std: 0.0001
+    std_activation: "softplus"
+    low_noise_eval: false
+    use_tanh: true

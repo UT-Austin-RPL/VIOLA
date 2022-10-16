@@ -1,0 +1,24 @@
+name: "bc"
+
+train:
+  lr: 0.0001
+  n_epochs: 2001
+  batch_size: 16
+  min_lr: 0.0001
+  num_workers: 0
+  warmstart: 10000
+
+obs:
+  modality:
+    rgb: ["stacked_rgb",
+          ]
+    low_dim: [
+    "gripper_states",
+    "joint_states",
+    "gripper_history"]
+
+  img_shape: [128, 128]
+
+defaults:
+  - model: bc_policy.yaml
+  - loss: mse_loss.yaml

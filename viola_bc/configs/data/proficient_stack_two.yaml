@@ -1,0 +1,9 @@
+env_name: "stack-two-types"
+task_name: "normal"
+
+dataset_name: StackTwoTypesDomain
+dataset_path: "datasets"
+
+params:
+  data_file_name: "./datasets/StackTwoTypesDomain_training_set/augmented_demo.hdf5"
+  # num_samples: 10

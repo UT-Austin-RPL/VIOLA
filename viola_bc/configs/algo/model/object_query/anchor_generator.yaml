@@ -1,0 +1,6 @@
+network: AnchorGeneratorModule
+network_kwargs:
+  sizes: [8, 16]
+  strides: [4, 8]
+  feature_size: 32
+  feature_format: "corner"

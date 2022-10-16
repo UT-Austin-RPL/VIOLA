@@ -1,0 +1,5 @@
+network: ShallowEncoder
+
+network_kwargs:
+  input_channels: 3
+  output_channels: 32

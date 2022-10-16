@@ -1,0 +1,4 @@
+network: SpatialLinearProjection
+
+network_kwargs:
+  out_dim: 64

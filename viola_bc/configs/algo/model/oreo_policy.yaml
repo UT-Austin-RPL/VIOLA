@@ -1,0 +1,9 @@
+name: OREOPolicy
+
+defaults:
+  - img_aug: translation_aug_group.yaml
+  - data_aug: data_aug_group.yaml
+  - encoder: resnet_conv.yaml
+  - encoder@eye_in_hand_encoder: resnet_conv.yaml
+  - oreo: oreo.yaml
+  - decoder: bc_gmm_decoder.yaml

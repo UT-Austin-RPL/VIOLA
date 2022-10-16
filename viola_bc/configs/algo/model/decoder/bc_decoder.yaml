@@ -1,0 +1,21 @@
+network: BCDecoder
+
+network_kwargs:
+  grouping:
+    network: BCCatGroupModalities
+    network_kwargs:
+      use_eye_in_hand: false
+      use_joint: true
+      use_gripper: false
+      use_gripper_history: true
+      use_ee: false
+
+  policy_output_head:
+    network: PolicyMLPLayer
+    network_kwargs:
+      output_dim: 4
+      num_layers: 2
+      num_dim: 1024
+      activation: "relu"
+      action_scale: 1.
+      action_squash: true

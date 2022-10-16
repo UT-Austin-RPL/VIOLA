@@ -1,0 +1,12 @@
+name: ObjectQueryPolicy
+
+defaults:
+  - img_aug: translation_aug_group.yaml
+  - encoder: resnet_conv.yaml
+  - object_query: default.yaml
+  - bbox_norm: bbox_identity.yaml
+  - bbox_position: bbox_position_embedding.yaml
+  - pooling: roi_align_spatialsoftmax.yaml
+  # - spatial_projection: spatial_projection.yaml
+  - projection: linear_projection.yaml    
+  - decoder: centernet_gmm_transformer_action_token.yaml

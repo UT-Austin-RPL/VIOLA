@@ -1,0 +1,30 @@
+network: EyeInHandTransformer
+
+network_kwargs:
+  grouping:
+    network: ActionTokenEyeInHandGroupModalities
+    network_kwargs:
+      use_eye_in_hand: true
+      use_joint: true
+      use_gripper: false
+      use_gripper_history: true
+      use_ee: false
+      embedding_size: 64
+  transformer_encoder:
+    network: TransformerEncoder
+    network_kwargs:
+      num_layers: 3
+      num_heads: 8
+      dim_head_output: 32
+      mlp_dim: 256
+      dropout: 0.
+  policy_output_head:
+    network: GMMPolicyMLPLayer
+    network_kwargs:
+      output_dim: 4
+      min_std: 0.0001
+      num_layers: 2
+      num_dim: 1024
+      mlp_activation: "relu"
+      std_activation: "softplus"
+      low_noise_eval: true

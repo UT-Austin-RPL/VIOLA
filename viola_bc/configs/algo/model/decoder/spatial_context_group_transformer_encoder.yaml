@@ -1,0 +1,23 @@
+network: SpatialContextGroupTransformerEncoder
+
+network_kwargs:
+  grouping:
+    network: ActionTokenSpatialContextGroupModalities
+    network_kwargs:
+      use_eye_in_hand: true
+      use_joint: true
+      use_gripper: false
+      use_gripper_history: true
+      use_ee: false
+      embedding_size: 64
+      joint_states_dim: 7
+      gripper_states_dim: 2
+      gripper_history_dim: 10
+  transformer_encoder:
+    network: TransformerEncoder
+    network_kwargs:
+      num_layers: 3
+      num_heads: 8
+      dim_head_output: 32
+      mlp_dim: 256
+      dropout: 0.

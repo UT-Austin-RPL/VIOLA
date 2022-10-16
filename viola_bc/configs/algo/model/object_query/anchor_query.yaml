@@ -1,0 +1,9 @@
+network: AnchorQueryModule
+network_kwargs:
+  num_layers: 2
+  num_dim: 256
+  cross_attention_kwargs:
+    q_dim: 64
+    kv_dim: null
+    out_dim: null
+    num_heads: 4

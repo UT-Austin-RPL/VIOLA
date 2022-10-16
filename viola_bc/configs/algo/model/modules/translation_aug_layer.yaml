@@ -1,0 +1,4 @@
+network: TranslationAugLayer
+
+network_kwargs:
+  translation: 4

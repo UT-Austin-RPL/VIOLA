@@ -1,0 +1,9 @@
+env_name: "sort-two-objects"
+task_name: "normal"
+
+dataset_name: SortTwoObjectsDomain
+dataset_path: "datasets"
+
+params:
+  data_file_name: "./datasets/SortTwoObjectsDomain_training_set/augmented_demo.hdf5"
+  # num_samples: 10

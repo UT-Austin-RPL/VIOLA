@@ -1,0 +1,5 @@
+network_type: UNet
+
+network_kwargs:
+  out_dim: 64
+  channel_dims: [64, 64, 128, 256]

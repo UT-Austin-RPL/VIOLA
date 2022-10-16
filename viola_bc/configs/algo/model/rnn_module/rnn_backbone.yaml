@@ -1,0 +1,22 @@
+network: RNNBackbone
+
+network_kwargs:
+    input_dim: 64
+    rnn_hidden_dim: 1000
+    rnn_num_layers: 2
+    rnn_type: "LSTM"
+    per_step_net:
+      network: GMMPolicyOutputHead
+      network_kwargs:
+        input_dim: null
+        output_dim: null
+        num_modes: 5
+        min_std: 0.0001
+        std_activation: "softplus"
+        low_noise_eval: false
+        use_tanh: true
+      
+    rnn_horizon: 10
+    rnn_kwargs:
+        bidirectional: false
+    

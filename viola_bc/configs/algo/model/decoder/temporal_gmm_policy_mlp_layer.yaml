@@ -1,0 +1,11 @@
+network: TemporalGMMPolicyMLPLayer
+
+network_kwargs:
+  input_dim: null
+  output_dim: 4
+  min_std: 0.0001
+  num_layers: 2
+  num_dim: 1024
+  mlp_activation: "relu"
+  std_activation: "softplus"
+  low_noise_eval: false

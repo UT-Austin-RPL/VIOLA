@@ -1,0 +1,4 @@
+name: torch.optim.AdamW
+
+parameters:
+  weight_decay: 0.0001

@@ -1,0 +1,14 @@
+name: CenterNetGMMRNNTransformerPolicySpatialContextAug
+
+defaults:
+  - img_aug: translation_aug_group.yaml
+  - data_aug: data_aug_group.yaml
+  - encoder: resnet_conv.yaml
+  - bbox_norm: bbox_true_sin_factor.yaml
+  - bbox_position: bbox_additive_position_embedding.yaml
+  - pooling: roi_align.yaml
+  - spatial_projection: spatial_projection.yaml
+  - projection: flatten_projection.yaml
+  - decoder: spatial_context_group_transformer_encoder.yaml
+  - rnn_module: rnn_backbone.yaml
+    

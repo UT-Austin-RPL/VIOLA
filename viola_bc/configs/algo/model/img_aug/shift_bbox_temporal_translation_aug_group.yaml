@@ -1,0 +1,4 @@
+network: ShiftBBoxTemporalTranslationAugGroup
+
+network_kwargs:
+        translation: 4

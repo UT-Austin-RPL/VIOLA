@@ -1,0 +1,7 @@
+network: BBoxNormFactor
+
+network_kwargs:
+        input_shape: null
+        scaling_ratio: 128
+        use_noise: true
+        pixel_var: 1

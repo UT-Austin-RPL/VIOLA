@@ -1,0 +1,11 @@
+name: TransformerPolicy
+
+defaults:
+  - img_aug: identity_aug.yaml
+  - encoder: resnet_conv.yaml
+  - bbox_norm: default.yaml
+  - bbox_position: bbox_position_embedding.yaml
+  - pooling: roi_align.yaml
+  - projection: flatten_projection.yaml
+  - decoder: simple_transformer.yaml
+  - loss: mse_loss.yaml

@@ -1,0 +1,10 @@
+  num_mask: 1
+  prob: 0.5
+  z_dim: 256
+  stack: 3
+  embedding_dim: 64
+  num_hiddens: 128
+  num_residual_layers: 2
+  num_residual_hiddens: 32
+  commitment_cost: 0.25
+  num_embeddings: 512

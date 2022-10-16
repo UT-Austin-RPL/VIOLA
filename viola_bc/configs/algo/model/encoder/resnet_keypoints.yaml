@@ -1,0 +1,10 @@
+network: ResnetKeypoints
+
+network_kwargs:
+  input_shape: null
+  pretrained: false
+  no_training: false
+  activation: "relu"
+  remove_layer_num: 2
+  num_kp: 32
+  visual_feature_dimension: 64

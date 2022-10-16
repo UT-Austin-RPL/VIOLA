@@ -1,0 +1,19 @@
+name: BCBBoxGMMPolicy
+
+defaults:
+  - img_aug: translation_aug.yaml
+  - encoder: resnet_keypoints.yaml
+  - projection: linear_projection.yaml
+  - decoder: centernet_gmm_transformer_v2.yaml
+
+# name: CenterNetTransformerPolicy
+
+# defaults:
+#   - img_aug: translation_aug.yaml
+#   - encoder: resnet_conv.yaml
+#   - bbox_norm: default.yaml
+#   - bbox_position: bbox_position_embedding.yaml
+#   - pooling: roi_align.yaml
+#   - projection: flatten_projection.yaml
+#   - decoder: centernet_simple_transformer.yaml
+    

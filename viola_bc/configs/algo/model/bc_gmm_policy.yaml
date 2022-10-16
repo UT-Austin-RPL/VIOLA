@@ -1,0 +1,6 @@
+name: BCGMMPolicy
+
+defaults:
+  - img_aug: translation_aug.yaml
+  - encoder: resnet_keypoints.yaml
+  - decoder: bc_gmm_decoder.yaml

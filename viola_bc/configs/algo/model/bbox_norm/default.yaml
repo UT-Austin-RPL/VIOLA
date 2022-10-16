@@ -1,0 +1,6 @@
+network: BBoxNorm
+
+network_kwargs:
+        scaling_ratio: 128
+        use_noise: true
+        pixel_var: 8

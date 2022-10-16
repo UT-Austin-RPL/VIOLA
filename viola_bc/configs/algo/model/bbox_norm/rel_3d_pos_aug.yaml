@@ -1,0 +1,6 @@
+network: Rel3DPosAug
+
+network_kwargs:
+        input_shape: null
+        use_noise: true
+        position_var: 0.01

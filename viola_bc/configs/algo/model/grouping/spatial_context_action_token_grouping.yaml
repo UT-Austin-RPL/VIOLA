@@ -1,0 +1,12 @@
+network: ActionTokenSpatialContextGroupModalities
+network_kwargs:
+  use_eye_in_hand: true
+  use_joint: true
+  use_gripper: false
+  use_gripper_history: true
+  use_ee: false
+  embedding_size: 64
+  joint_states_dim: 7
+  gripper_states_dim: 2
+  gripper_history_dim: 10
+  zero_action_token: true

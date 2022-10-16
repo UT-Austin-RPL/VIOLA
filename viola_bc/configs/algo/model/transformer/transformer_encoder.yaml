@@ -1,0 +1,9 @@
+network_type: TransformerEncoder
+
+
+num_layers: 2
+num_heads: 8
+dim_head_output: 32
+mlp_dim: 32
+dropout: 0.
+

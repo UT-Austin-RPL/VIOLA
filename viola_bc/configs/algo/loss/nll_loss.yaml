@@ -1,0 +1,4 @@
+fn: NLLLoss
+
+loss_kwargs:
+  reduction: "mean"

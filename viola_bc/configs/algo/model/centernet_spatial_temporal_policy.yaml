@@ -1,0 +1,15 @@
+name: CenterNetSpatialTemporalPolicy
+
+defaults:
+  - img_aug: translation_aug_group.yaml
+  - data_aug: data_aug_group.yaml
+  - encoder: resnet_conv.yaml
+  - bbox_norm: bbox_true_sin_factor.yaml
+  - bbox_position: bbox_additive_position_embedding.yaml
+  - temporal_position: temporal_sin_encoding.yaml
+  - grouping: spatial_context_action_token_grouping.yaml
+  - pooling: roi_align.yaml
+  - transformer: transformer_decoder.yaml
+  - spatial_projection: spatial_projection.yaml
+  - projection: flatten_projection.yaml
+  - decoder: temporal_gmm_policy_mlp_layer.yaml

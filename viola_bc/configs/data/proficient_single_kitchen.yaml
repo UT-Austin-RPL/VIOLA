@@ -1,0 +1,9 @@
+env_name: "single-kitchen"
+task_name: "normal"
+
+dataset_name: SingleKitchenDomain
+dataset_path: "datasets"
+
+params:
+  data_file_name: "./datasets/SingleKitchenDomain_training_set/demo.hdf5"
+  # num_samples: 10

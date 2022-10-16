@@ -1,0 +1,4 @@
+network: TranslationAugGroup
+
+network_kwargs:
+        translation: 4

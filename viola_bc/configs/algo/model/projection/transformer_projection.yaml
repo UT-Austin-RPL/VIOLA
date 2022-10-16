@@ -1,0 +1,4 @@
+network: TransformerProjection
+
+network_kwargs:
+  output_dim: 32

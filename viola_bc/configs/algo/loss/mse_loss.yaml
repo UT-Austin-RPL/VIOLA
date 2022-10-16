@@ -1,0 +1,4 @@
+fn: nn.MSELoss
+
+loss_kwargs:
+  reduction: "sum"

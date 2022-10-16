@@ -1,0 +1,12 @@
+n_eval: 100
+max_steps: 1500
+
+
+visualization: false
+
+
+use_spacemouse: false
+  
+task_name: null
+
+wandb_project: "detction-bc-eval"

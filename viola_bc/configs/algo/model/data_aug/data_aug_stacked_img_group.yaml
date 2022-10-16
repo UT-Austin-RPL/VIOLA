@@ -1,0 +1,18 @@
+network: DataAugStackedImgGroup
+
+network_kwargs:
+  use_color_jitter: false
+  use_random_erasing: true
+
+  color_jitter:
+    brightness: 0.3
+    contrast: 0.3
+    saturation: 0.3
+    hue: 0.1
+
+  random_erasing:
+    p: 0.5
+    scale: [0.02, 0.05]
+    ratio: [0.5, 1.5]
+    value: "random"
+    

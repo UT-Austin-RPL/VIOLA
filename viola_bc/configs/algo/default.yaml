@@ -1,0 +1,35 @@
+name: "bc"
+
+train:
+  lr: 0.0001
+  n_epochs: 2001
+  batch_size: 16
+  min_lr: 0.0001
+  num_workers: 0
+  warmstart: 10000
+  grad_clip: 1.0
+  use_rnn: false
+  rnn_horizon: 10
+
+obs:
+  modality:
+    rgb: ["agentview_rgb",
+          "eye_in_hand_rgb"
+          ]
+    low_dim: [
+    "centernet_bbox",
+    "gripper_states",
+    "joint_states",
+    "gripper_history"]
+
+  img_shape: [128, 128]
+
+defaults:
+  - model: centernet_transformer_policy.yaml
+  - loss: mse_loss.yaml
+  - optimizer: adam
+  - scheduler: default    
+
+use_eye_in_hand: false
+use_proprio: false
+pretrained_model_path: "pretrained_models/ToolUseDomain_bc_gmm/model.pth"

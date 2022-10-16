@@ -1,0 +1,4 @@
+fn: L2Loss
+
+loss_kwargs:
+  reduction: "sum"

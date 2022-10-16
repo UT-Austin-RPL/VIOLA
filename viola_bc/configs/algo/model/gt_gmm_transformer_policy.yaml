@@ -1,0 +1,10 @@
+name: GTGMMTransformerPolicy
+
+defaults:
+  - img_aug: translation_aug.yaml
+  - encoder: resnet_conv.yaml
+  - bbox_norm: default.yaml
+  - bbox_position: bbox_position_embedding.yaml
+  - pooling: roi_align_spatialsoftmax.yaml
+  - projection: linear_projection.yaml
+  - decoder: centernet_gmm_transformer.yaml

@@ -1,0 +1,4 @@
+name: EyeInHandPolicy
+
+defaults:
+  - decoder: eye_in_hand_transformer.yaml

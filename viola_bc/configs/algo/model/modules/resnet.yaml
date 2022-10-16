@@ -1,0 +1,8 @@
+network: ResnetEncoder
+
+network_kwargs:
+  pretrained: false
+  no_training: false
+  activation: "relu"
+  remove_layer_num: 5
+  img_c: 3

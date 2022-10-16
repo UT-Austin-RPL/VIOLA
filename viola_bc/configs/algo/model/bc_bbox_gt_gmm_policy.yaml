@@ -1,0 +1,12 @@
+name: BCBBoxGMMPolicy
+
+defaults:
+  - img_aug: translation_aug.yaml
+  - encoder: resnet_keypoints.yaml
+  - projection: linear_projection.yaml
+  - bbox_encoder: resnet_conv.yaml
+  - bbox_projection: linear_projection.yaml    
+  - bbox_norm: default.yaml
+  - bbox_position: bbox_additive_position_embedding.yaml
+  - pooling: roi_align_spatialsoftmax
+  - decoder: bc_centernet_transformer.yaml

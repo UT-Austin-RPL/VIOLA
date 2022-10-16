@@ -1,0 +1,24 @@
+network: BCDecoder
+
+network_kwargs:
+  grouping:
+    network: BCCatGroupModalities
+    network_kwargs:
+      use_eye_in_hand: false
+      use_joint: true
+      use_gripper: true
+      use_gripper_history: false
+      use_ee: false
+
+  policy_output_head:
+    network: GMMPolicyMLPLayer
+    network_kwargs:
+      output_dim: 4
+      min_std: 0.0001
+      num_layers: 2
+      num_dim: 1024
+      mlp_activation: "relu"
+      std_activation: "softplus"
+      low_noise_eval: true
+      # action_scale: 1.
+      # action_squash: true

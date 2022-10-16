@@ -1,0 +1,4 @@
+network: FlattenProjection
+
+network_kwargs:
+  out_dim: 64

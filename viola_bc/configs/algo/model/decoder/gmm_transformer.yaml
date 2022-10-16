@@ -1,0 +1,33 @@
+network: SimpleTransformer
+
+network_kwargs:
+  transformer_encoder:
+    network: TransformerEncoder
+    network_kwargs:
+      num_layers: 3
+      num_heads: 8
+      dim_head_output: 32
+      mlp_dim: 128
+      dropout: 0.
+  policy_output_head:
+    network: PolicyGMMLayer
+    network_kwargs:
+      output_dim: 4
+      num_layers: 2
+      num_dim: 1024
+      num_modes: 5
+      min_std: 0.0001
+      std_activation: "softplus"
+      low_noise_eval: true
+      activation: "relu"
+      action_scale: 1.
+      action_squash: true
+
+  grouping:
+    network: GroupModalities
+    network_kwargs:
+      use_eye_in_hand: false
+      use_joint: false
+      use_gripper: false
+      use_ee: false
+          

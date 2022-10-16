@@ -1,0 +1,33 @@
+# @package _global_
+
+# specify here default training configuration
+defaults:
+  - _self_
+  - algo: default
+  - data: proficient_tool_use
+  - eval: default
+  - flags: default
+  - baseline_experiment: null
+  - experiment: null
+  - gt_experiment: null
+  - eye_in_hand_experiment: null
+  - real_experiment: null
+    
+wandb_project: "centernet_bbox"
+folder: ./
+
+use_checkpoint: false
+eval_only: false
+
+hdf5_cache_mode: "low_dim"
+
+hydra:
+    run:
+        dir: . # outputs/${hydra.job.name}_${data.env_name}/${now:%Y-%m-%d_%H-%M-%S}
+
+checkpoint_dir: ""
+
+seed: 7
+
+
+experiment_log: "None"

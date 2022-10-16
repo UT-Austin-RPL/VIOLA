@@ -1,0 +1,4 @@
+network: ShiftBBoxTranslationAugGroup
+
+network_kwargs:
+        translation: 4

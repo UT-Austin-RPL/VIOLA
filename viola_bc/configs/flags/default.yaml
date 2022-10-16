@@ -1,0 +1,5 @@
+debug: false
+
+eval_wandb: false
+
+use_pretrained: false

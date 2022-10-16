@@ -1,0 +1,4 @@
+network: BBoxCatSinusoidalPositionEmbedding
+
+network_kwargs: {}
+

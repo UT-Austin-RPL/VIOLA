@@ -1,0 +1,8 @@
+network: TransformerDecoder
+
+network_kwargs:
+  num_layers: 4
+  num_heads: 6
+  dim_head_output: 64
+  mlp_dim: 256
+  dropout: 0.1

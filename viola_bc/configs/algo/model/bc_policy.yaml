@@ -1,0 +1,6 @@
+name: BCPolicy
+
+defaults:
+  - img_aug: translation_aug.yaml
+  - encoder: resnet_keypoints.yaml
+  - decoder: bc_decoder.yaml

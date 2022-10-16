@@ -1,0 +1,31 @@
+network: CenterNetSimpleTransformer
+
+network_kwargs:
+  transformer_encoder:
+    network: TransformerEncoder
+    network_kwargs:
+      num_layers: 3
+      num_heads: 8
+      dim_head_output: 32
+      mlp_dim: 128
+      dropout: 0.
+  policy_output_head:
+    network: PolicyMLPLayer
+    network_kwargs:
+      output_dim: 4
+      num_layers: 2
+      num_dim: 1024
+      activation: "relu"
+      action_scale: 1.
+      action_squash: true
+
+  grouping:
+    network: AveragingGroupModalities
+    network_kwargs:
+      use_eye_in_hand: true
+      use_joint: true
+      use_gripper: false
+      use_gripper_history: true
+      use_ee: false
+      average_all: false
+          

@@ -1,0 +1,5 @@
+network_type: PlainConvNet
+
+network_kwargs:
+  hidden_dim: 64
+  output_dim: 64

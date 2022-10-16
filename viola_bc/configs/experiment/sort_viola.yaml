@@ -1,0 +1,88 @@
+# @package _global_
+
+defaults:
+  - override /algo/model: centernet_spatial_temporal_policy
+  # - override /algo/model/img_aug: translation_aug_group
+  # - override /algo/model/data_aug: data_aug_group
+  # - override /algo/model/bbox_norm: bbox_true_sin_factor
+  # - override /algo/model/bbox_position: bbox_additive_position_embedding
+  # - override /algo/model/decoder: centernet_gmm_transformer_spatial_context_action_token
+  # - override /algo/model/projection: flatten_projection
+  # - override /algo/model/pooling: roi_align
+  - override /algo/loss: nll_loss
+  - override /algo/optimizer: adam_w
+  - override /algo/scheduler: cosine_annealing_warmrestarts
+  - override /data: proficient_sort_two_objects
+
+
+hdf5_cache_mode: "all"
+
+data:
+  params:
+    data_file_name: "./datasets/SortTwoObjectsDomain_training_set/augmented_demo.hdf5"
+
+algo:
+  obs:
+    modality:
+      low_dim: ["gripper_states", "joint_states", "centernet_bbox_20"]  
+  model:
+    name: CenterNetSpatialTemporalPolicy
+    transformer:
+      network_kwargs:
+        num_layers: 4
+        num_heads: 6
+        dim_head_output: 64
+        mlp_dim: 256
+        dropout: 0.1        
+    grouping:
+      network_kwargs:
+        use_joint: true
+        use_gripper: true
+        use_gripper_history: false
+        use_ee: false
+        use_eye_in_hand: true
+        embedding_size: 64
+        eye_in_hand:
+          img_h: 128
+          img_w: 128
+    decoder:
+      network_kwargs:
+        low_noise_eval: false
+    pooling:
+      network_kwargs:
+        output_size: [6, 6]
+    spatial_projection:
+      network_kwargs:
+        out_dim: 64
+    projection:
+      network_kwargs:
+        out_dim: 64
+    encoder:
+      network_kwargs:
+        remove_layer_num: 4
+    data_aug:
+      network_kwargs:
+        use_color_jitter: false
+        use_random_erasing: true
+    bbox_norm:
+      network_kwargs:
+        scaling_ratio: 128.
+        pixel_var: 1
+        factor_ratio: 1
+    temporal_position:
+      network_kwargs:
+        factor_ratio: 1.
+  train:
+    batch_size: 16
+    n_epochs: 51
+    grad_clip: 10.
+    use_rnn: true
+    seq_len: 10
+  loss:
+    loss_kwargs:
+        reduction: "mean"
+# data:
+#   params:
+#     data_file_name: "./datasets/ToolUseDomain_proficient_set/original_demo.hdf5"
+
+experiment_log: "Sort two objects into the bin spatial-temporal"
