@@ -18,4 +18,34 @@ the state-of-the-art imitation learning methods by 45.8% in success rates. It ha
 also been deployed successfully on a physical robot to solve challenging long-
 horizon tasks, such as dining table arrangements and coffee making. More videos
 and model details can be found in supplementary materials and the anonymous
-project website: [https://sites.google.com/view/viola-manipulation](https://sites.google.com/view/viola-manipulation).
+	project website: [https://ut-austin-rpl.github.io/VIOLA/](https://ut-austin-rpl.github.io/VIOLA/).
+
+
+
+## Usage
+
+### Prerequisite
+Make sure the code dependencies in `third_party` is set.
+
+
+### Collect demonstrations and dataset creation
+
+
+
+### Augment datasets with color augmentations and object proposals
+
+
+
+### Training and evaluation
+To train a policy model with our generated dataset, run
+
+``` 
+
+```
+
+And for evaluation, run
+``` 
+
+```
+
+
