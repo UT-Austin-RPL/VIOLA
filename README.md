@@ -22,30 +22,46 @@ and model details can be found in supplementary materials and the anonymous
 
 
 
-## Usage
+## Installation
 
 ### Prerequisite
-Make sure the code dependencies in `third_party` is set.
 
+
+## Usage
 
 ### Collect demonstrations and dataset creation
 
+``` shell
+python data_generation/collect_demo.py --controller OSC_POSITION --num-demonstration 100 --environment stack-two-types --pos-sensitivity 1.5 --rot-sensitivity 1.5
+```
 
+Then create dataset from a data collection hdf5 file.
+
+``` shell
+python data_generation/create_dataset.py --use-actions
+--use-camera-obs --dataset-name training_set --demo-file PATH_TO_DEMONSTRATION_DATA/demo.hdf5 --domain-name stack-two-types
+```
 
 ### Augment datasets with color augmentations and object proposals
 
+``` shell
+python data_generation/aug_post_processing.py --dataset-folder StackTwoTypesDomain_training_set
+```
 
+``` shell
+python data_generation/process_data_w_proposals.py --nms 0.05
+```
 
 ### Training and evaluation
 To train a policy model with our generated dataset, run
 
 ``` 
-
+python viola_bc/exp.py experiment=stack_viola ++hdf5_cache_mode="low_dim"
 ```
 
 And for evaluation, run
 ``` 
-
+python viola_bc/final_eval_script.py --state-dir checkpoints/stack --eval-horizon 1000 --hostname ./ --topk 20 --task-name normal
 ```
 
 
