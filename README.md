@@ -92,7 +92,7 @@ We also make the datasets we used in our paper publicly available. You
 can download them:
 
 **Datasets**:
-Used datasets: [datasets](), and unzip it under the folder and rename
+Used datasets: [datasets](https://utexas.box.com/shared/static/vn17v83v6h91poyqp0qqh9ozh7h2a6i4.zip), and unzip it under the folder and rename
 the folder's name to be `datasets`.
 
 **Checkpoints**:
