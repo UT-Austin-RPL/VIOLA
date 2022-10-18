@@ -1,7 +1,7 @@
 #  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors
 
 <p align="center">
-<img src="./imgs/pull_figure.png" height="250" width="1161">
+<img src="./imgs/pull_figure.png" height="200" width="1161">
 </p>
 
 [Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi](), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
