@@ -1,4 +1,9 @@
 #  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors
+
+<p align="center">
+<img src="./imgs/pull_figure.png" height="400">
+</p>
+
 [Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi](), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
 
 
@@ -87,7 +92,9 @@ We also make the datasets we used in our paper publicly available. You
 can download them:
 
 **Datasets**:
-Used datasets: [datasets]()
+Used datasets: [datasets](), and unzip it under the folder and rename
+the folder's name to be `datasets`.
 
 **Checkpoints**:
 Best checkpoint performance: [checkpoints](https://utexas.box.com/shared/static/fhr9lnsn8imodrirgu0sil3ey00m1m8p.zip)
+unziip it under the root folder of the repo and rename it to be `results`.
