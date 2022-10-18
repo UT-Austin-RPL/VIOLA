@@ -23,9 +23,21 @@ and model details can be found in supplementary materials and the anonymous
 
 
 ## Installation
+Git clone the repo by: 
 
-### Prerequisite
+``` shell
+git clone --recurse-submodules git@github.com:UT-Austin-RPL/VIOLA.git
+```
 
+Then go into `VIOLA/third_party`, install each dependencies according
+to their instructions: [detectron2](https://github.com/facebookresearch/detectron2), [Detic](https://github.com/zhuyifengzju/Detic)
+
+
+Then install all the other dependencies. Most important packages are:
+`torch`, `robosuite` and `robomimic`.`
+``` shell
+pip -r install requirements.txt
+```
 
 ## Usage
 
