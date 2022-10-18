@@ -7,7 +7,7 @@
 [Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi](), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
 
 
-[Project](https://ut-austin-rpl.github.io/VIOLA/) | [Paper](https://openreview.net/forum?id=L8hCfhPbFho)
+[Project](https://ut-austin-rpl.github.io/VIOLA) | [Paper](https://openreview.net/forum?id=L8hCfhPbFho)
 
 <!-- | [arxiv](http://arxiv.org/abs/2109.13841)  -->
 
@@ -25,7 +25,7 @@ the state-of-the-art imitation learning methods by 45.8% in success rates. It ha
 also been deployed successfully on a physical robot to solve challenging long-
 horizon tasks, such as dining table arrangements and coffee making. More videos
 and model details can be found in supplementary materials and the anonymous
-	project website: [https://ut-austin-rpl.github.io/VIOLA/](https://ut-austin-rpl.github.io/VIOLA/).
+	project website: [https://ut-austin-rpl.github.io/VIOLA](https://ut-austin-rpl.github.io/VIOLA).
 
 
 
