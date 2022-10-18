@@ -45,6 +45,7 @@ pip -r install requirements.txt
 
 ### Collect demonstrations and dataset creation
 
+We by default assume the dataset is collected through spacemouse teleoperation.
 ``` shell
 python data_generation/collect_demo.py --controller OSC_POSITION --num-demonstration 100 --environment stack-two-types --pos-sensitivity 1.5 --rot-sensitivity 1.5
 ```
@@ -58,10 +59,12 @@ python data_generation/create_dataset.py --use-actions
 
 ### Augment datasets with color augmentations and object proposals
 
+Add color augmentation to the original dataset:
 ``` shell
 python data_generation/aug_post_processing.py --dataset-folder StackTwoTypesDomain_training_set
 ```
 
+Then we generate general object proposals using Detic models:
 ``` shell
 python data_generation/process_data_w_proposals.py --nms 0.05
 ```
