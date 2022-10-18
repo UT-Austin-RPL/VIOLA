@@ -2,7 +2,9 @@
 [Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi](), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
 
 
-[Project](https://ut-austin-rpl.github.io/VIOLA/)  <!-- | [arxiv](http://arxiv.org/abs/2109.13841)  -->
+[Project](https://ut-austin-rpl.github.io/VIOLA/) | [Paper](https://openreview.net/forum?id=L8hCfhPbFho)
+
+<!-- | [arxiv](http://arxiv.org/abs/2109.13841)  -->
 
 
 ## Introduction
