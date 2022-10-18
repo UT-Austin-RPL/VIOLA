@@ -79,6 +79,15 @@ python viola_bc/exp.py experiment=stack_viola ++hdf5_cache_mode="low_dim"
 And for evaluation, run
 ``` 
 python viola_bc/final_eval_script.py --state-dir checkpoints/stack --eval-horizon 1000 --hostname ./ --topk 20 --task-name normal
-```
+``**
 
+## Dataset and trained checkpoints
 
+We also make the datasets we used in our paper publicly available. You
+can download them:
+
+**Datasets**:
+Used datasets: [datasets]()
+
+**Checkpoints**:
+Best checkpoint performance: [checkpoints](https://utexas.box.com/shared/static/fhr9lnsn8imodrirgu0sil3ey00m1m8p.zip)
