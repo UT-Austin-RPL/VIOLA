@@ -66,7 +66,7 @@ python data_generation/create_dataset.py --use-actions
 
 Add color augmentation to the original dataset:
 ``` shell
-python data_generation/aug_post_processing.py --dataset-folder StackTwoTypesDomain_training_set
+python data_generation/aug_post_processing.py --dataset-folder DATASET_FOLDER_NAME
 ```
 
 Then we generate general object proposals using Detic models:
