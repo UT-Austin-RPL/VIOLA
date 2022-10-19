@@ -183,7 +183,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
   <!-- <a href="./src/approach.gif"> <img src="./src/approach.gif" style="width:80%;">  
   </a> -->
     <!-- <a href="./videos/VIOLA supp approach.mp4"> <video src="./videos/VIOLA supp approach.mp4" type="video/mp4" style="width:80%;"/>   -->
-     <video controls="" muted="" autoplay="" loop="" width="88%">
+     <video muted="" autoplay="" loop="" width="88%">
         <source src="videos/teaser no fadeout.mp4" type="video/mp4">
       </video>
   <!-- </a> -->
