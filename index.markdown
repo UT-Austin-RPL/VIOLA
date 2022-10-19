@@ -177,12 +177,29 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 <!-- </tbody> -->
 <!-- </table> -->
 
+
+<table border="0" cellspacing="10" cellpadding="0" align="center"> 
+  <tbody><tr>  <td align="center" valign="middle">
+  <!-- <a href="./src/approach.gif"> <img src="./src/approach.gif" style="width:80%;">  
+  </a> -->
+    <!-- <a href="./videos/VIOLA supp approach.mp4"> <video src="./videos/VIOLA supp approach.mp4" type="video/mp4" style="width:80%;"/>   -->
+     <video controls="" muted="" autoplay="" loop="" width="88%">
+        <source src="videos/teaser no fadeout.mp4" type="video/mp4">
+      </video>
+  <!-- </a> -->
+  </td>
+  </tr>
+
+</tbody>
+</table>
+
 <p>
 <div width="500"><p>
   <table align=center width=800px>
                 <tr>
                     <td>
 <p align="justify" width="20%">
+
 We introduce VIOLA, an object-centric imitation learning approach to learning closed-loop visuomotor policies for robot manipulation. Our approach constructs object-centric representations based on general object proposals from a pre-trained vision model. It uses a transformer-based policy to reason over these representations and attends to the task-relevant visual factors for action prediction. Such object-based structural priors improve deep imitation learning algorithm's robustness against object variations and environmental perturbations. We quantitatively evaluate VIOLA in simulation and on real robots. VIOLA outperforms the state-of-the-art imitation learning methods by 45.8% in success rates. It has also been deployed successfully on a physical robot to solve challenging long-horizon tasks, such as dining table arrangements and coffee making.
 </p></td></tr></table>
 </p>
@@ -264,7 +281,7 @@ cellpadding="0">
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 960 288"
-   height="210"
+   height="288"
    width="960"
    xml:space="preserve"
    id="svg2"
@@ -330,18 +347,18 @@ cellpadding="0">
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan52"
              y="0"
-             x="0 55.73 111.46">20.</tspan></text>
+             x="0 55.73 111.46 139.09">20.0</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,339.4462,-129.84)"
+         transform="matrix(0.24,0,0,0.24,389.6962,-60.23999)"
          id="g56"><text
            id="text60"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan58"
              y="0"
-             x="0">0</tspan></text>
+             x="0 55.73 111.46 139.09">60.0</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,389.6962,-60.23999)"
+         transform="matrix(0.24,0,0,0.24,640.2046,-60.23999)"
          id="g62"><text
            id="text66"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -350,145 +367,136 @@ cellpadding="0">
              y="0"
              x="0 55.73 111.46 139.09">60.0</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,640.2046,-60.23999)"
+         transform="matrix(0.24,0,0,0.24,562.1422,-161.04)"
          id="g68"><text
            id="text72"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan70"
              y="0"
-             x="0 55.73 111.46 139.09">60.0</tspan></text>
+             x="0 55.73 83.360001">0.0</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,562.1422,-161.04)"
+         transform="matrix(0.24,0,0,0.24,41.68779,-201.36)"
          id="g74"><text
            id="text78"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan76"
              y="0"
-             x="0 55.73 83.360001">0.0</tspan></text>
+             x="0 72.400002 94.800003 150.5 172.89999 228.60001">Dining</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,15.50027,-201.6)"
+         transform="matrix(0.24,0,0,0.24,111.1878,-201.36)"
          id="g80"><text
            id="text84"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan82"
              y="0"
-             x="0 59.900002 119.8 179.7 239.60001 299.5">Dining</tspan></text>
+             x="0">-</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,101.7503,-201.6)"
+         transform="matrix(0.24,0,0,0.24,119.1878,-201.36)"
          id="g86"><text
            id="text90"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan88"
              y="0"
-             x="0">-</tspan></text>
+             x="0 60.939999 83.379997 139.12 166.75999 222.5 278.23999 333.98001 367.32001">PlateFork</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,116.1253,-201.6)"
+         transform="matrix(0.24,0,0,0.24,306.3188,-201.36)"
          id="g92"><text
            id="text96"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan94"
              y="0"
-             x="0 59.900002 119.8 179.7 239.60001 299.5 359.39999 419.29999 479.20001">PlateFork</tspan></text>
+             x="0 72.400002 94.800003 150.5 172.89999 228.60001">Dining</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,292.0688,-204.96)"
+         transform="matrix(0.24,0,0,0.24,375.8188,-201.36)"
          id="g98"><text
            id="text102"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan100"
              y="0"
-             x="0 59.900002 119.8 179.7 239.60001 299.5">Dining</tspan></text>
+             x="0">-</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,378.3188,-204.96)"
+         transform="matrix(0.24,0,0,0.24,383.8188,-201.36)"
          id="g104"><text
            id="text108"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan106"
              y="0"
-             x="0">-</tspan></text>
+             x="0 66.669998 122.44 194.81">Bowl</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,392.6938,-204.96)"
+         transform="matrix(0.24,0,0,0.24,560.5172,-201.36)"
          id="g110"><text
            id="text114"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan112"
              y="0"
-             x="0 59.900002 119.8 179.7">Bowl</tspan></text>
+             x="0 83.330002 139.06 189.06">Make</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,550.2047,-199.92)"
+         transform="matrix(0.24,0,0,0.24,619.2672,-201.36)"
          id="g116"><text
            id="text120"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan118"
              y="0"
-             x="0 59.900002 119.8 179.7">Make</tspan></text>
+             x="0">-</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,607.7047,-199.92)"
+         transform="matrix(0.24,0,0,0.24,627.2672,-201.36)"
          id="g122"><text
            id="text126"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan124"
              y="0"
-             x="0">-</tspan></text>
+             x="0 72.400002 128.10001 155.7 183.3 239">Coffee</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,622.0797,-199.92)"
+         transform="matrix(0.24,0,0,0.24,512.0364,-23.99999)"
          id="g128"><text
            id="text132"
-           style="font-variant:normal;font-weight:normal;font-size:100px;font-family:Monaco;-inkscape-font-specification:Monaco;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan130"
              y="0"
-             x="0 59.900002 119.8 179.7 239.60001 299.5">Coffee</tspan></text>
+             x="0 66.669998">BC</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,512.0364,-23.99999)"
+         transform="matrix(0.24,0,0,0.24,545.4114,-23.99999)"
          id="g134"><text
            id="text138"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan136"
              y="0"
-             x="0 66.669998">BC</tspan></text>
+             x="0">-</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,545.4114,-23.99999)"
+         transform="matrix(0.24,0,0,0.24,553.4114,-23.99999)"
          id="g140"><text
            id="text144"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan142"
              y="0"
-             x="0">-</tspan></text>
+             x="0 66.669998 139.03999">RNN</tspan></text>
 </g><g
-         transform="matrix(0.24,0,0,0.24,553.4114,-23.99999)"
+         transform="matrix(0.24,0,0,0.24,646.1424,-23.99999)"
          id="g146"><text
            id="text150"
            style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
            transform="matrix(1,0,0,-1,0,899)"><tspan
              id="tspan148"
              y="0"
-             x="0 66.669998 139.03999">RNN</tspan></text>
-</g><g
-         transform="matrix(0.24,0,0,0.24,646.1424,-23.99999)"
-         id="g152"><text
-           id="text156"
-           style="font-variant:normal;font-weight:300;font-size:100px;font-family:Helvetica;-inkscape-font-specification:Helvetica-Light;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-           transform="matrix(1,0,0,-1,0,899)"><tspan
-             id="tspan154"
-             y="0"
              x="0 60.939999 88.580002 166.22 221.96001">VIOLA</tspan></text>
 </g><path
-         id="path158"
+         id="path152"
          style="fill:#ed7d31;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 619.6575,210.1011 h 21.6 v -21.6 h -21.6 z" /><path
-         id="path160"
+         id="path154"
          style="fill:#4472c4;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 485.9646,210.1011 h 21.6 v -21.6 h -21.6 z" /></g></g></svg>
 </td>
