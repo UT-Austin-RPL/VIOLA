@@ -1,4 +1,4 @@
-#  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors
+#  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposal Priors
 
 <p align="center">
 <img src="./imgs/pull_figure.png" height="100%">
