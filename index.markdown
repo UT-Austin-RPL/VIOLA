@@ -573,9 +573,9 @@ cellpadding="0"><tr><td>
 <center><h1>Acknowledgements</h1></center> The authors would like to specially thank Yue Zhao for the great discussion on the project and the insightful feedback on the manuscript.
 This work has taken place
 in the Robot Perception and Learning Group (RPL) and Learning Agents
-Research Group (LARG) at UT Austin.  RPL research has been partially
-supported by NSF CNS-1955523, the MLL Research Award from the Machine
-Learning Laboratory at UT-Austin, and the Amazon Research Awards. LARG
+Research Group (LARG) at UT Austin. RPL research has been partially supported
+by the National Science Foundation (CNS-1955523, FRR-2145283), the Office of Naval Research
+(N00014-22-1-2204), and the Amazon Research Awards. LARG
 research is supported in part by NSF (CPS-1739964, IIS-1724157,
 NRI-1925082), ONR (N00014-18-2243), FLI (RFP2-000), ARO
 (W911NF-19-2-0333), DARPA, Lockheed Martin, GM, and Bosch. Peter Stone
