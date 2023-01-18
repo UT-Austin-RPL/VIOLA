@@ -28,6 +28,9 @@ and model details can be found in supplementary materials and the anonymous
 	project website: [https://ut-austin-rpl.github.io/VIOLA](https://ut-austin-rpl.github.io/VIOLA).
 
 
+### Real Robot Usage
+This codebase does not include the real robot experiment setup. If you are interested in using the real robot control infra we use, please checkout [Deoxys](https://github.com/UT-Austin-RPL/deoxys_control)! It comes a detailed [documentation](https://ut-austin-rpl.github.io/deoxys-docs/html/) for getting started.
+
 
 ## Installation
 Git clone the repo by: 
