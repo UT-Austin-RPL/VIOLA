@@ -44,7 +44,7 @@ to their instructions: [detectron2](https://github.com/facebookresearch/detectro
 
 
 Then install all the other dependencies. Most important packages are:
-`torch`, `robosuite` and `robomimic`.`
+`torch`, `robosuite` and `robomimic`.
 ``` shell
 pip install -r requirements.txt
 ```
