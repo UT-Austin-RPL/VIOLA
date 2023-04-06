@@ -1,4 +1,4 @@
-#  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposals Priors
+#  VIOLA: Imitation Learning for Vision-Based Manipulation with Object Proposal Priors
 
 <p align="center">
 <img src="./imgs/pull_figure.png" height="100%">
@@ -28,6 +28,9 @@ and model details can be found in supplementary materials and the anonymous
 	project website: [https://ut-austin-rpl.github.io/VIOLA](https://ut-austin-rpl.github.io/VIOLA).
 
 
+### Real Robot Usage
+This codebase does not include the real robot experiment setup. If you are interested in using the real robot control infra we use, please checkout [Deoxys](https://github.com/UT-Austin-RPL/deoxys_control)! It comes with a detailed [documentation](https://ut-austin-rpl.github.io/deoxys-docs/html/) for getting started.
+
 
 ## Installation
 Git clone the repo by: 
@@ -41,9 +44,9 @@ to their instructions: [detectron2](https://github.com/facebookresearch/detectro
 
 
 Then install all the other dependencies. Most important packages are:
-`torch`, `robosuite` and `robomimic`.`
+`torch`, `robosuite` and `robomimic`.
 ``` shell
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
