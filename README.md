@@ -96,7 +96,7 @@ can download them:
 
 **Datasets**:
 Used datasets: [datasets](https://utexas.box.com/shared/static/vn17v83v6h91poyqp0qqh9ozh7h2a6i4.zip), and unzip it under the folder and rename
-the folder's name to be `datasets`.
+the folder's name to be `datasets`. Note that our simulation datasets are collected with robosuite v1.3.0, so the textures of robots, robots, and floors in datasets will not match robosuite v1.4.0.
 
 **Checkpoints**:
 Best checkpoint performance: [checkpoints](https://utexas.box.com/shared/static/fhr9lnsn8imodrirgu0sil3ey00m1m8p.zip)
