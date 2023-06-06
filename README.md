@@ -7,7 +7,7 @@
 [Yifeng Zhu](https://www.cs.utexas.edu/~yifengz), [Abhishek Joshi](), [Peter Stone](https://www.cs.utexas.edu/~pstone), [Yuke Zhu](https://www.cs.utexas.edu/~yukez/)
 
 
-[Project](https://ut-austin-rpl.github.io/VIOLA) | [Paper](https://openreview.net/forum?id=L8hCfhPbFho) | [Simulation Datasets](https://utexas.box.com/shared/static/vn17v83v6h91poyqp0qqh9ozh7h2a6i4.zip) | [Real-Robot Datasets](https://utexas.box.com/shared/static/cetscq2l0vwxbj1l9m5zwuz5swq3kk8y.zip)
+[Project](https://ut-austin-rpl.github.io/VIOLA) | [Paper](https://openreview.net/forum?id=L8hCfhPbFho) | [Simulation Datasets](https://utexas.box.com/shared/static/vn17v83v6h91poyqp0qqh9ozh7h2a6i4.zip) | [Real-Robot Datasets](https://utexas.box.com/shared/static/cetscq2l0vwxbj1l9m5zwuz5swq3kk8y.zip) | [Real Robot Control](https://ut-austin-rpl.github.io/deoxys-docs/html/getting_started/overview.html)
 
 <!-- | [arxiv](http://arxiv.org/abs/2109.13841)  -->
 
