@@ -135,7 +135,7 @@ src="http://b5tcdn.bang5mai.com/js/flag.js?v=156945351"></script>
 
 
 <div id="primarycontent">
-<center><h1><strong>VIOLA: Imitation Learning for Vision-Based Manipulation <br> with Object Proposals Priors</strong></h1></center>
+<center><h1><strong>VIOLA: Imitation Learning for Vision-Based Manipulation <br> with Object Proposal Priors</strong></h1></center>
 <center><h2>
     <a href="https://zhuyifengzju.github.io/">Yifeng Zhu<sup>1</sup></a>&nbsp;&nbsp;&nbsp;
     <a href="">Abhishek Joshi<sup>1</sup></a>&nbsp;&nbsp;&nbsp;
